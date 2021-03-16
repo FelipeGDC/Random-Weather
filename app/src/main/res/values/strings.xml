@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Random Weather</string>
+
+    <!-- Weather display -->
+    <string name="temp_degrees">%1$d°</string>
+    <string name="location">%1$s, %2$s</string>
+    <string name="feels_like">feels like %1$d°</string>
+    <string name="latitude">lat: %1$f</string>
+    <string name="longitude">lon: %1$f</string>
+    <string name="tooltip_refresh">Refresh location</string>
+
+
+
+    <!--Lottie animations -->
+    <string name="paperplane_loading">paperplane_loading.json</string>
+
+    <!--Lottie weather -->
+    <string name="day_clear_sky">weather/day-clear-sky.json</string>
+    <string name="day_few_clouds">weather/day-few-clouds.json</string>
+    <string name="day_broken_clouds">weather/day-broken-clouds.json</string>
+    <string name="day_scattered_clouds">weather/day-scattered-clouds.json</string>
+    <string name="day_mist">weather/day-mist.json</string>
+    <string name="day_rain">weather/day-rain.json</string>
+    <string name="day_shower_rains">weather/day-shower-rains.json</string>
+    <string name="day_snow">weather/day-snow.json</string>
+    <string name="day_thunderstorm">weather/day-thunderstorm.json</string>
+
+    <string name="night_clear_sky">weather/night-clear-sky.json</string>
+    <string name="night_few_clouds">weather/night-few-clouds.json</string>
+    <string name="night_broken_clouds">weather/night-broken-clouds.json</string>
+    <string name="night_scattered_clouds">weather/night-scattered-clouds.json</string>
+    <string name="night_mist">weather/night-mist.json</string>
+    <string name="night_rain">weather/night-rain.json</string>
+    <string name="night_shower_rains">weather/night-shower-rains.json</string>
+    <string name="night_snow">weather/night-snow.json</string>
+    <string name="night_thunderstorm">weather/night-thunderstorm.json</string>
+
+
+</resources>
