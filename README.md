@@ -37,3 +37,10 @@ The app currently consists of 1 screen:
 - Kluent3
 
 
+
+## Screenshots
+
+![list_characters](https://github.com/FelipeGDC/Random-Weather/blob/develop/images/day.png)
+![character_detail](https://github.com/FelipeGDC/Random-Weather/blob/develop/images/night.png)
+
+
