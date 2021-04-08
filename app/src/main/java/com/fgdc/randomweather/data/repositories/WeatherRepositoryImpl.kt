@@ -21,7 +21,7 @@ class WeatherRepositoryImpl @Inject constructor(
 ) : WeatherRepository {
     override fun getWeatherByCoordinates(lat: Double, lon: Double) = flow {
         emit(
-            if (networkHandler.isConnected == true) {
+            if (networkHandler.isConnected) {
                 apiService.getWeatherByCoordinates(lat, lon, BuildConfig.WEATHER_APP_ID, BuildConfig.WEATHER_UNIT).run {
                     if (isSuccessful && body() != null) {
                         Success(body()!!.toWeatherDomain())

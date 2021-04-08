@@ -6,5 +6,5 @@ import javax.inject.Inject
 
 class NetworkHandler
 @Inject constructor(private val context: Context) {
-    val isConnected get() = context.networkInfo?.isConnected
+    val isConnected get() = context.networkInfo
 }
